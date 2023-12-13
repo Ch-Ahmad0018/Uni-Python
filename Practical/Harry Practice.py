@@ -77,8 +77,28 @@
 #     raise ValueError("Value should be between 5 and 9")
 
 # practice
-a=input("Enter any string:")
-if(a=='quit'):
-    print("Hello")
-else:
-    raise ValueError("Value should be quit")    
+# a=input("Enter any string:")
+# if(a=='quit'):
+#     print("Hello")
+# else:
+#     raise ValueError("Value should be quit")    
+
+# -----------------------------------for loop with else statement-----------------------------------------------
+# ---------------------------------------i----------------------------------------------------------------------
+# for i in range(6):
+#     print(i)
+    
+# else:
+#     print("Sorry no i")    
+# #  Else Statement get executed
+
+# # ---------------------------------------ii----------------------------------------------------------------------
+# for i in range(6):
+#     print(i)
+#     if(i==4):
+#         break
+    
+# else:
+#     print("Sorry no i")
+# # Else statement does not execute because loop break
+
